@@ -1,5 +1,7 @@
 import { Component } from '@angular/core'
-import { compose, pipe } from 'ramda'
+
+import compose from 'ramda/src/compose'
+import pipe from 'ramda/src/pipe'
 
 @Component({
   selector: 'app-lazy',
