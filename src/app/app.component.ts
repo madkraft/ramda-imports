@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import pathOr from 'ramda/src/pathOr'
+import pathOr from 'ramda/es/pathOr'
 
 @Component({
   selector: 'app-root',
