@@ -5,5 +5,6 @@
 
 Conclusion:
 Importing ramda operators with destructuring imports only used operators and provides treeshaking when imported only from one module.
+If imported only from one module `import * as R from 'ramda'` and then using it e.g. `R.path` also provides treeshaking.
 
-Importing ramda operators from 2 modules simultaneously increases buundle size from 1.3 to 49.86KB
+Importing ramda operators from 2 modules simultaneously increases bundle size from 1.3 to 49.86KB and imports whole library.
